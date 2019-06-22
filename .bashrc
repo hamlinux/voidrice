@@ -6,3 +6,6 @@ export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput se
 
 [ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc" # Load shortcut aliases
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
+
+[ -f "$HOME/.bash_aliases" ] && source "$HOME/.bash_aliases" # Load shortcut aliases
+[ -f "$HOME/.task_aliases" ] && source "$HOME/.task_aliases"
